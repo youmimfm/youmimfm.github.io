@@ -1,0 +1,38 @@
+<svg width="160" height="200" viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 紫色神仙鱼 -->
+  <defs>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A855F7;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9333EA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 鱼身 -->
+  <ellipse cx="80" cy="100" rx="40" ry="60" fill="url(#purpleGradient)" stroke="#581C87" stroke-width="2"/>
+  
+  <!-- 鱼尾 -->
+  <path d="M 40 100 L 10 85 L 15 100 L 10 115 Z" fill="url(#purpleGradient)" stroke="#581C87" stroke-width="2"/>
+  
+  <!-- 长背鳍 -->
+  <path d="M 60 40 L 70 20 L 80 25 L 90 30 L 100 40 L 95 70 Z" fill="url(#purpleGradient)" stroke="#581C87" stroke-width="2"/>
+  
+  <!-- 长腹鳍 -->
+  <path d="M 60 160 L 70 180 L 80 175 L 90 170 L 100 160 L 95 130 Z" fill="url(#purpleGradient)" stroke="#581C87" stroke-width="2"/>
+  
+  <!-- 侧鳍 -->
+  <ellipse cx="100" cy="120" rx="18" ry="8" fill="url(#purpleGradient)" stroke="#581C87" stroke-width="1"/>
+  
+  <!-- 装饰条纹 -->
+  <path d="M 60 80 Q 75 75 90 80 Q 105 85 120 80" stroke="#F3E8FF" stroke-width="3" fill="none"/>
+  <path d="M 60 100 Q 75 95 90 100 Q 105 105 120 100" stroke="#F3E8FF" stroke-width="3" fill="none"/>
+  <path d="M 60 120 Q 75 115 90 120 Q 105 125 120 120" stroke="#F3E8FF" stroke-width="3" fill="none"/>
+  
+  <!-- 眼睛 -->
+  <circle cx="105" cy="85" r="10" fill="white" stroke="#333" stroke-width="1"/>
+  <circle cx="108" cy="85" r="7" fill="black"/>
+  <circle cx="110" cy="82" r="2" fill="white"/>
+  
+  <!-- 嘴巴 -->
+  <ellipse cx="125" cy="100" rx="8" ry="4" fill="#581C87" stroke="#3B0764" stroke-width="1"/>
+</svg>
